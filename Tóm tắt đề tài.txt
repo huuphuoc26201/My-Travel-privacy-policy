@@ -1,0 +1,27 @@
+Xây dựng ứng dụng quảng bá và đặt tour du lịch trực tuyến trên android studio
+
+Các tính năng chính của ứng dụng:
+- Đăng ký, đăng nhập (Có thêm tính năng đăng nhập bằng Google hoặc Facebook), tính năng quên mật khẩu
+- Hiển thị danh sách Tour du lịch phổ biến ở màn hình Home dưới dạng Slide Images + Auto Run (Realtime)
+- Hiển thị danh sách Tour du lịch gợi ý ở màn hình Home (Realtime)
+- Tính năng search Tour du lịch theo Name ở màn hình Home
+- Hiển thị thông tin chi tiết của Tour du lịch: thông tin cơ bản, miêu tả, một số hình ảnh khác hoặc video…
+- Đặt tour du lịch: với nhiều tour du lịch nổi tiếng ở trong nước và ngoài nước được phân theo danh mục khá rõ ràng cho khánh hàng lựa chọn
+- Đặt phòng khánh sạn, homestay: Tìm và đặt khách sạn, tour du lịch trải nghiệm các dịch vụ miễn phí
+- Đặt vé: Tìm kiếm và đặt vé máy bay hoặc tàu, xe khách tùy vào lựa chọn của khách hàng
+- lựa chọn hình thức than toán: Thanh toán trực tuyến qua momo, tài khoản ngân hàng
+- Cung cấp danh sách địa điểm vui chơi, nhà hàng, khách sạn: tìm các nhà hàng và điểm tham quan tuyệt vời gần đó trên ứng dụng
+- Hiện thị danh sách lịch sử đã booking theo từng Device
+- Tính năng Feedback: gửi phản hồi, đóng góp, đánh giá cho ứng dụng
+- Hiển thị các phương thức liên lạc (contact) với admin
+
+Các công nghệ được sử dụng:
+- Ngôn ngữ sử dụng: Java
+- Project Architecture: MVC (Model - View- Controller)
+- Realtime Database from Firebase
+- Hiển thị data, search, order history: tất cả đều Realtime
+- Room Database (quản lý danh sách tour Offline): thêm tour du lịch vào tour, update tour, xóa khỏi tour, check xem đã tồn tại trong tour chưa….
+- Sử dụng control BottomSheetDialog để thiết kế layout Add to tour and booking
+- BottomNavigationView + ViewPager2 + Fragments trong Android
+- ViewPager2 + CircleIndicator3 + Auto Run Slide Images
+- Xử lý logic khi thiết kế RecyclerView trong NestedScrollView
